@@ -1,0 +1,63 @@
+﻿/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    color: #333;
+    padding: 40px;
+    width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+    /* Título */
+    .container h1 {
+        margin-bottom: 25px;
+        font-size: 24px;
+        color: #1d3557;
+    }
+
+    /* Lista */
+    .container ul {
+        list-style: none;
+    }
+
+        /* Items */
+        .container ul li {
+            margin: 12px 0;
+        }
+
+            /* Links */
+            .container ul li a {
+                display: block;
+                padding: 12px;
+                background-color: #457b9d;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 8px;
+                transition: all 0.3s ease;
+                font-weight: 500;
+            }
+
+                /* Hover */
+                .container ul li a:hover {
+                    background-color: #1d3557;
+                    transform: scale(1.03);
+                }
